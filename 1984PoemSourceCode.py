@@ -22,7 +22,7 @@ def cleaner(input):
   line_1 = line_1.words
   cleaned = []
   for words in line_1:
-    if (words not in ["'s", "'ll", "and", "ca", "n't", "'you", "'re", "b-b", "'d", '"']):
+    if (words not in ["'s", "'ll", "and", "ca", "n't", "'you", "'re", "b-b", "'d", '"', "'alf"]):
       cleaned.append(words)
   cleaned = " ".join(cleaned)
   return(cleaned)
