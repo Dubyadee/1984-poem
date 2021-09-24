@@ -27,6 +27,7 @@ def cleaner(input):
   cleaned = " ".join(cleaned)
   return(cleaned)
 
+###RUN FROM HERE DOWN IN A DIFFERENT CELL IF YOU DON'T WANT 3 MINUTE WAIT TIMES###
 import random
 print("Woe, our", cleaner(random.choice(phrases_list)))
 print("Look at their", cleaner(random.choice(phrases_list)))
